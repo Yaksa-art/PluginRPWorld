@@ -1,0 +1,16 @@
+name: Rpstrana
+version: 1.0.0
+main: com.rpstrana.Main
+api-version: 1.21
+depend: [LuckPerms]
+
+commands:
+  rp:
+    description: Main command for Rpstrana plugin
+    usage: /rp [subcommand]
+    aliases: [country, nations]
+
+permissions:
+  rpstrana.admin:
+    description: Allows admin access to Rpstrana
+    default: op
